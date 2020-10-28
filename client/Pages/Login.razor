@@ -1,0 +1,26 @@
+﻿@page "/login"
+@layout LoginLayout
+@inherits RadzenCrm3.Pages.LoginComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using RadzenCrm3.Models.Crm
+@using Microsoft.AspNetCore.Identity;
+@using RadzenCrm3.Models
+@using Microsoft.AspNetCore.Authorization
+
+
+<form method="post" action="account/login">
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Login">
+    </RadzenHeading>
+    <div class="row">
+      <div class="col-md-12">
+        <RadzenLogin AllowResetPassword="false" Register="@Login0Register">
+        </RadzenLogin>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>
+</form>

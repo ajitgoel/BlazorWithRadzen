@@ -1,0 +1,299 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\klCTW0WUar-4yh1uBgbOKU_WiwesEG0tJK9T6pApjG8=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Authorization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\A-DUFW-Fyzr5JQiOkmCmFSmfhkxvE9Bn_ovU5FaPlsA=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Authorization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ph45JkkPYP1Iw-_DBq3SgRLxFtU9-vZUS2v3J7KO3Hg=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\m4C62UA_usgJXkb5eFskAqPSoBvVXes9dYwvUJn0Fv4=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\jmH7A5YzmNnn7KYDym9tpZUhcteeg4O8OgU1xtmvA-M=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\yQC7DfmXK2RZDpWkEb6wu1_qz5ZL0v9iZuS6ij4k0Wc=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\O1v4gt_CruK9JdU2oBqmEdPtfBUn6933yJfBZLy8YP0=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\E3f4J6l8lbQSDkMIMjPcey9s0qLel0hwzN0yS6CTXDI=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Metadata.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\EcDo-GQZkQrOT1Xd0jMPE3NwT5lsMq5DNsPxHVidLDQ=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\EgI54utAG8-FzG3MEe0rzng4UdnK_GAS1_T5G6CzXfk=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Bcl.HashCode.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.HashCode.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\WrqkYD6j1T5zrV4VG5Y38JTbWM6uOfFckSGWIrM36Rk=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.CSharp.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\oaBlI0etYsqH_xLE7dvhFHeQKT93PVVRgr2_3F82DFI=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\I-jNyt2I_0SB1G3G6pbblAGZRupussDIuoZQJPzHtro=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.EntityFrameworkCore.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mm1urU_9o96RpEkkestgAA6VJ1xCQJzv1vCsvyOp9mk=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.Relational.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\MBis9YkFRcPc3bY_ca5CNKPSM8iTUAvlXYwQ_O9kIzw=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Caching.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\YfN1NSmGasHTkVF3bgzthBOHckvjPJBkBaXKvEAskGk=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Caching.Memory.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Caching.Memory.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Ag3mFagWp8I3q0wAGftKZqbpCJC_r3fcdfjZkMvyj28=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\xGJBJNUao0aBy2hDdSNywMxtitF5fEltQfEl2nMIB00=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\jXkif5r7kj_E0npnop_L_HWhSxUaZuC5GUlAGsdR7VM=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\pdN1mRQBZ5nVxdNBG2C1ujT4Oa2JFjuR0TpvHqcQhX4=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6hm_VgPfPLMzrVEy2lwk8K9DXXLjLq-iSAeg0Z3dW9o=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8iLULArNrqK_Sxem5jlq5s3i0LydufGUn7QsC-RRt-w=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\nyb1u0WfHmTuM4SK0B96g3jP2A2F9xCpoeBeqMbT7No=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Identity.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Identity.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\VZAEOQNIJS7u-VfZr8qc_dwLVTsdRgS5fX7XH11kL-4=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Identity.Stores.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Identity.Stores.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\W0YAwJza8AbXTEqseAt2dWd-7PREfVRgXAMbOaDoXVU=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\wlcBVxIfQgMWqgP6rDiQRRb9UEUVIGjTgb-JIxHslyk=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\H6L4EUxxg_dJ8vOC77g5W_8OWJtC_BBpyIp76l9efiQ=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SkZ6WZW1RIc7KCwmipE8KUYHdTPJXhMSrPk87vahd-A=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\wPVE_fg2Wfgm_nAD92XCPaxVbvDC8sg8uzPDi5-1hCE=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\V0ad4wSG1ITX-UNoLY3SQzLgv58lgDfMuotyqG-gnxY=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Net.Http.Headers.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Net.Http.Headers.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\POshcJx5tpKKxlVNdqxT7Wzegw8jDTeooyXKjG8_Ncw=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Mono.Security.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Security.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8VlLtZZ99pByumdnI6xlNidK81xjbIdStflAxYnhfBw=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\a5pbEEBzn6iekFk9ZR5cqJ1qwDAFGC0nZwcQjw7Pv7s=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\netstandard.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/netstandard.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\HLRIfqW6JHhIYazFvm5MRZg1p9LYMS6QKHGKHhHUkQg=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\Radzen.Blazor.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Radzen.Blazor.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\C4IZvDgAnq86mOwjPuOzvEb2EtwOc6_JeV4owB700y0=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\RadzenCrm3.Client.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/RadzenCrm3.Client.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\GaRVOf1C44s2U7QY5qC4J7QdMZiSca33MzLQDWZBlPs=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Collections.Immutable.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Immutable.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ay5wY0WJGZ55jyKcZgnCjCFeSLe92jsScx1vKl_xE_A=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\TjUzhUjvKHuv82THxdfq1-YEut5bYFkyewpyfHphKRY=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\otNijk069PGMjCxkHpsCkccTNjstY91o2b5PgthTkHk=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Data.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zoRg8dxYGVOEGMy30ZE10qEaeKA_rF89LIcMmGjDEwE=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Diagnostics.DiagnosticSource.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.DiagnosticSource.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XQnK-xfSWgRkAcHytET9h1o_a3Oie8o-pemRk-FQ7m8=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\lB7xi0h_msNThEoFacmFBX1NOwhmQ97uGS7Yl7fCY5E=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Linq.Dynamic.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.Dynamic.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\uKWHO5Wx5PYO4mE-KI03WJ6hD9CKtOcMwIzqHnuBwpI=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\LCMXAQwpmeKsXfVtT2ZiUDTaNWlc7CSgEtzGHZfOqyo=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\J_VWR5tFylkPTGRjoDVjvTpyy0pKw6dG8BKViQnlMFM=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Numerics.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\gQ6gGITsx_TFKR_PuZ3ioqf0JXwGlM28PAymwxocdw0=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\1oZTWnaoCBorcEmmzBURr_K5REvL_kgG2cCRwlEbAuc=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.Serialization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Serialization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\DpepoMunYJ0dYk5f-2Z3fHvjXglenccGmb1OcUApZVs=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tX4CvOFH2o1PejVNG7jzcDHKogzK6Tm8J6hEeTHOxaI=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BHxU2uuKMR3KQ2ZYtN1rTyOCsuohZ_zOvWTLhKgOBRc=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Transactions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Transactions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\pI7nFfQ4rh6gk5niSW-ChoxiBPzLVWutMgdQByBCgws=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tcIJDiQkXuVuj31HJK9RNHMVBQQ-Yhw00HkQQ5iiFKg=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.Linq.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.Linq.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2kP4ZqA-GZwQ0-CMP_qGkTnofo0jtuTC4MYpTxVEfrM=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "C:\\Users\\ajitg\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "C:\\Users\\ajitg\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "C:\\Users\\ajitg\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash",
+      "Source": "C:\\Users\\ajitg\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.0\\tools\\blazor\\blazor.webassembly.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\N9GKfbTND28tr9nuOcnP3ZFWlLrz5QIjPrlaFYQur2o=.hash",
+      "Source": "c:\\temp\\RadzenCRM3\\client\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
+    }
+  ]
+}

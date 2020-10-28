@@ -1,0 +1,49 @@
+﻿@page "/application-users"
+@layout MainLayout
+@inherits RadzenCrm3.Pages.ApplicationUsersComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using RadzenCrm3.Models.Crm
+@using Microsoft.AspNetCore.Identity;
+@using RadzenCrm3.Models
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles="Sales Manager")]
+
+
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Users">
+    </RadzenHeading>
+    <div class="row">
+      <div class="col-md-12">
+        <RadzenButton Icon="add_circle_outline" style="margin-bottom: 10px" Text="Add" Click="@Button0Click">
+        </RadzenButton>
+        <RadzenGrid @ref="grid0" AllowFiltering="true" AllowPaging="true" AllowSorting="true" Data="@users" TItem="ApplicationUser" RowSelect="@Grid0RowSelect">
+          <Columns>
+            <RadzenGridColumn TItem="ApplicationUser" Property="UserName" Title="User Name">
+            </RadzenGridColumn>
+            <RadzenGridColumn TItem="ApplicationUser" Property="Email" Title="Email">
+            </RadzenGridColumn>
+            <RadzenGridColumn TItem="ApplicationUser" Property="FirstName" Title="First Name" Type="string">
+            </RadzenGridColumn>
+            <RadzenGridColumn TItem="ApplicationUser" Property="LastName" Title="Last Name" Type="string">
+            </RadzenGridColumn>
+            <RadzenGridColumn TItem="ApplicationUser" Property="Picture" Title="Picture" Type="string">
+              <Template Context="applicationUser">
+                <RadzenImage Path="@(applicationUser.Picture)" style="height: 30px; width: 30px">
+                </RadzenImage>
+              </Template>
+            </RadzenGridColumn>
+            <RadzenGridColumn TItem="ApplicationUser" Filterable="false" Sortable="false" Width="70px">
+              <Template Context="applicationUser">
+                <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="close" Size="ButtonSize.Small" Click="@((args) =>GridDeleteButtonClick(args, applicationUser))" @onclick:stopPropagation="true">
+                </RadzenButton>
+              </Template>
+            </RadzenGridColumn>
+          </Columns>
+        </RadzenGrid>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>

@@ -1,0 +1,601 @@
+{
+  "access": "Authenticated",
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Home",
+          "type": "heading"
+        },
+        {
+          "components": [
+            {
+              "class": "col-xl-3 col-lg-6",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12 col-4",
+                          "components": [
+                            {
+                              "icon": "attach_money",
+                              "name": "icon0",
+                              "style": {
+                                "backgroundColor": "#68d5c8",
+                                "fontSize": "48px",
+                                "height": "64px",
+                                "width": "64px"
+                              },
+                              "type": "icon"
+                            }
+                          ],
+                          "name": "col1",
+                          "type": "col"
+                        },
+                        {
+                          "class": "col-md-12 col-8",
+                          "components": [
+                            {
+                              "name": "heading0",
+                              "size": "H4",
+                              "style": {
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "Revenue",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading1",
+                              "size": "H4",
+                              "style": {
+                                "color": "#88989b",
+                                "fontSize": "12px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "LAST MONTH",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading2",
+                              "size": "H4",
+                              "style": {
+                                "color": "#68d5c8",
+                                "fontSize": "24px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "13px",
+                                "textAlign": "right"
+                              },
+                              "text": "${monthlyStats?.Revenue.ToString(\"C\")}",
+                              "type": "heading"
+                            }
+                          ],
+                          "name": "col2",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row1",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card0",
+                  "style": {
+                    "marginBottom": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-xl-3 col-lg-6",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12 col-4",
+                          "components": [
+                            {
+                              "icon": "shopping_cart",
+                              "name": "icon1",
+                              "style": {
+                                "backgroundColor": "#f9777f",
+                                "fontSize": "48px",
+                                "height": "64px",
+                                "width": "64px"
+                              },
+                              "type": "icon"
+                            }
+                          ],
+                          "name": "col4",
+                          "type": "col"
+                        },
+                        {
+                          "class": "col-md-12 col-8",
+                          "components": [
+                            {
+                              "name": "heading3",
+                              "size": "H4",
+                              "style": {
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "Opportunities",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading4",
+                              "size": "H4",
+                              "style": {
+                                "color": "#88989b",
+                                "fontSize": "12px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "LAST MONTH",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading5",
+                              "size": "H4",
+                              "style": {
+                                "color": "#f9777f",
+                                "fontSize": "24px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "13px",
+                                "textAlign": "right"
+                              },
+                              "text": "${monthlyStats?.Opportunities.ToString()}",
+                              "type": "heading"
+                            }
+                          ],
+                          "name": "col5",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row2",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card1",
+                  "style": {
+                    "marginBottom": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col3",
+              "type": "col"
+            },
+            {
+              "class": "col-xl-3 col-lg-6",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12 col-4",
+                          "components": [
+                            {
+                              "icon": "account_balance_wallet",
+                              "name": "icon2",
+                              "style": {
+                                "backgroundColor": "#ff6d41",
+                                "fontSize": "48px",
+                                "height": "64px",
+                                "width": "64px"
+                              },
+                              "type": "icon"
+                            }
+                          ],
+                          "name": "col7",
+                          "type": "col"
+                        },
+                        {
+                          "class": "col-md-12 col-8",
+                          "components": [
+                            {
+                              "name": "heading6",
+                              "size": "H4",
+                              "style": {
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "Average Deal Size",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading7",
+                              "size": "H4",
+                              "style": {
+                                "color": "#88989b",
+                                "fontSize": "12px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "LAST MONTH",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading8",
+                              "size": "H4",
+                              "style": {
+                                "color": "#ff6d41",
+                                "fontSize": "24px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "13px",
+                                "textAlign": "right"
+                              },
+                              "text": "${monthlyStats?.AverageDealSize.ToString()}",
+                              "type": "heading"
+                            }
+                          ],
+                          "name": "col8",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row3",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card2",
+                  "style": {
+                    "marginBottom": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col6",
+              "type": "col"
+            },
+            {
+              "class": "col-xl-3 col-lg-6",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-12 col-4",
+                          "components": [
+                            {
+                              "icon": "thumb_up",
+                              "name": "icon3",
+                              "style": {
+                                "backgroundColor": "#479cc8",
+                                "fontSize": "48px",
+                                "height": "64px",
+                                "width": "64px"
+                              },
+                              "type": "icon"
+                            }
+                          ],
+                          "name": "col10",
+                          "type": "col"
+                        },
+                        {
+                          "class": "col-md-12 col-8",
+                          "components": [
+                            {
+                              "name": "heading9",
+                              "size": "H4",
+                              "style": {
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "Win Rate",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading10",
+                              "size": "H4",
+                              "style": {
+                                "color": "#88989b",
+                                "fontSize": "12px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "0px",
+                                "textAlign": "right"
+                              },
+                              "text": "LAST MONTH",
+                              "type": "heading"
+                            },
+                            {
+                              "name": "heading11",
+                              "size": "H4",
+                              "style": {
+                                "color": "#479cc8",
+                                "fontSize": "24px",
+                                "marginBottom": "0px",
+                                "marginLeft": "0px",
+                                "marginRight": "0px",
+                                "marginTop": "13px",
+                                "textAlign": "right"
+                              },
+                              "text": "${monthlyStats?.Ratio.ToString(\"P\")}",
+                              "type": "heading"
+                            }
+                          ],
+                          "name": "col11",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row4",
+                      "type": "row"
+                    }
+                  ],
+                  "name": "card3",
+                  "style": {
+                    "marginBottom": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col9",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-lg-6 col-xl-4",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "name": "heading12",
+                      "size": "H3",
+                      "text": "Customer life time value",
+                      "type": "heading"
+                    },
+                    {
+                      "colorScheme": "ColorScheme.Pastel",
+                      "name": "chart0",
+                      "series": [
+                        {
+                          "categoryProperty": "Company",
+                          "data": "${revenueByCompany}",
+                          "type": "Column",
+                          "valueProperty": "Revenue"
+                        }
+                      ],
+                      "style": {
+                        "width": "100%"
+                      },
+                      "type": "chart",
+                      "visible": true
+                    }
+                  ],
+                  "name": "card4",
+                  "style": {
+                    "marginBottom": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col12",
+              "type": "col"
+            },
+            {
+              "class": "col-lg-6 col-xl-4",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "name": "heading13",
+                      "size": "H3",
+                      "text": "Revenue by employee",
+                      "type": "heading"
+                    },
+                    {
+                      "colorScheme": "ColorScheme.Pastel",
+                      "name": "chart1",
+                      "series": [
+                        {
+                          "categoryProperty": "Month",
+                          "data": "${revenueByMonth}",
+                          "tooltipTemplate": "",
+                          "type": "Area",
+                          "valueProperty": "Revenue"
+                        }
+                      ],
+                      "style": {
+                        "width": "100%"
+                      },
+                      "type": "chart",
+                      "visible": true
+                    }
+                  ],
+                  "name": "card5",
+                  "style": {
+                    "marginBottom": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col13",
+              "type": "col"
+            },
+            {
+              "class": "col-lg-6 col-xl-4",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "name": "heading14",
+                      "size": "H3",
+                      "text": "Revenue",
+                      "type": "heading"
+                    },
+                    {
+                      "colorScheme": "ColorScheme.Pastel",
+                      "name": "chart2",
+                      "series": [
+                        {
+                          "categoryProperty": "Employee",
+                          "data": "${revenueByEmployee}",
+                          "tooltipTemplate": "",
+                          "type": "Bar",
+                          "valueProperty": "Revenue"
+                        }
+                      ],
+                      "style": {
+                        "width": "100%"
+                      },
+                      "type": "chart",
+                      "visible": true
+                    }
+                  ],
+                  "name": "card6",
+                  "style": {
+                    "marginBottom": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col14",
+              "type": "col"
+            }
+          ],
+          "name": "row5",
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "MonthlyStats",
+        "schema": {
+          "$ref": "#/definitions/Stats",
+          "async": true,
+          "dotnetType": "System.Threading.Tasks.Task<RadzenCrm3.Pages.Stats>"
+        },
+        "then": [
+          {
+            "name": "monthlyStats",
+            "type": "set",
+            "value": "${result}",
+            "valueType": "RadzenCrm3.Pages.Stats"
+          }
+        ],
+        "type": "invoke-method"
+      },
+      {
+        "name": "RevenueByCompany",
+        "schema": {
+          "async": true,
+          "dotnetType": "System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<RadzenCrm3.Pages.RevenueByCompany>>",
+          "items": {
+            "$ref": "#/definitions/RevenueByCompany",
+            "dotnetType": "RadzenCrm3.Pages.RevenueByCompany"
+          },
+          "type": "array"
+        },
+        "then": [
+          {
+            "name": "revenueByCompany",
+            "type": "set",
+            "value": "${result}",
+            "valueType": "dynamic"
+          }
+        ],
+        "type": "invoke-method"
+      },
+      {
+        "name": "RevenueByEmployee",
+        "schema": {
+          "async": true,
+          "dotnetType": "System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<RadzenCrm3.Pages.RevenueByEmployee>>",
+          "items": {
+            "$ref": "#/definitions/RevenueByEmployee",
+            "dotnetType": "RadzenCrm3.Pages.RevenueByEmployee"
+          },
+          "type": "array"
+        },
+        "then": [
+          {
+            "name": "revenueByEmployee",
+            "type": "set",
+            "value": "${result}",
+            "valueType": "IEnumerable<RadzenCrm3.Pages.RevenueByEmployee>"
+          }
+        ],
+        "type": "invoke-method"
+      },
+      {
+        "name": "RevenueByMonth",
+        "schema": {
+          "async": true,
+          "dotnetType": "System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<RadzenCrm3.Pages.RevenueByMonth>>",
+          "items": {
+            "$ref": "#/definitions/RevenueByMonth",
+            "dotnetType": "RadzenCrm3.Pages.RevenueByMonth"
+          },
+          "type": "array"
+        },
+        "then": [
+          {
+            "name": "revenueByMonth",
+            "type": "set",
+            "value": "${result}",
+            "valueType": "IEnumerable<RadzenCrm3.Pages.RevenueByMonth>"
+          }
+        ],
+        "type": "invoke-method"
+      }
+    ]
+  },
+  "layout": "Main",
+  "name": "Home"
+}
