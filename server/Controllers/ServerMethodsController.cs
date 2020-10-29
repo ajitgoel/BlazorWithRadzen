@@ -39,7 +39,7 @@ namespace RadzenCrm3
                            })
                            .OrderBy(deals => deals.Month)
                            .Last();
-      return Ok(System.Text.Json.JsonSerializer.Serialize(stats, new JsonSerializerOptions { PropertyNamingPolicy = null }));
+      return Ok(JsonSerializer.Serialize(stats, new JsonSerializerOptions { PropertyNamingPolicy = null }));
     }
     public IActionResult RevenueByCompany()
     {
@@ -50,7 +50,7 @@ namespace RadzenCrm3
                              Company = group.Key,
                              Revenue = group.Sum(opportunity => opportunity.Amount)
                            });
-      return Ok(System.Text.Json.JsonSerializer.Serialize(result, new JsonSerializerOptions
+      return Ok(JsonSerializer.Serialize(result, new JsonSerializerOptions
       {
         PropertyNamingPolicy = null
       }));
@@ -64,7 +64,7 @@ namespace RadzenCrm3
                              Employee = group.Key,
                              Revenue = group.Sum(opportunity => opportunity.Amount)
                            });
-      return Ok(System.Text.Json.JsonSerializer.Serialize(result, new JsonSerializerOptions
+      return Ok(JsonSerializer.Serialize(result, new JsonSerializerOptions
       {
         PropertyNamingPolicy = null
       }));
@@ -80,7 +80,7 @@ namespace RadzenCrm3
                              Month = group.Key
                            })
                            .OrderBy(deals => deals.Month);
-      return Ok(System.Text.Json.JsonSerializer.Serialize(result, new JsonSerializerOptions
+      return Ok(JsonSerializer.Serialize(result, new JsonSerializerOptions
       {
         PropertyNamingPolicy = null
       }));

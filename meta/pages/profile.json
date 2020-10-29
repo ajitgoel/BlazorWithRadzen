@@ -12,9 +12,8 @@
           "type": "heading"
         },
         {
-          "components": [
+          "items": [
             {
-              "class": "col-md-12",
               "components": [
                 {
                   "components": [
@@ -24,7 +23,219 @@
                           "class": "col-md-3",
                           "components": [
                             {
+                              "component": "textBox1",
+                              "name": "label1",
+                              "style": {
+                                "width": "100%"
+                              },
+                              "text": "First Name",
+                              "type": "label"
+                            }
+                          ],
+                          "name": "col0",
+                          "type": "col"
+                        },
+                        {
+                          "class": "col-md-9",
+                          "components": [
+                            {
+                              "name": "textBox1",
+                              "placeholder": "",
+                              "style": {
+                                "display": "block",
+                                "width": "100%"
+                              },
+                              "type": "textbox",
+                              "value": "${user.FirstName}"
+                            },
+                            {
+                              "component": "textBox1",
+                              "name": "requiredValidator1",
+                              "style": {
+                                "position": "absolute"
+                              },
+                              "text": "First Name is required",
+                              "type": "required-validator"
+                            }
+                          ],
+                          "name": "col1",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row0",
+                      "style": {
+                        "marginBottom": "1rem"
+                      },
+                      "type": "row"
+                    },
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-3",
+                          "components": [
+                            {
+                              "component": "textbox0",
+                              "name": "label4",
+                              "style": {
+                                "width": "100%"
+                              },
+                              "text": "Last Name",
+                              "type": "label"
+                            }
+                          ],
+                          "name": "col10",
+                          "type": "col"
+                        },
+                        {
+                          "class": "col-md-9",
+                          "components": [
+                            {
+                              "name": "textbox0",
+                              "placeholder": "",
+                              "style": {
+                                "display": "block",
+                                "width": "100%"
+                              },
+                              "type": "textbox",
+                              "value": "${user.LastName}"
+                            },
+                            {
+                              "component": "textbox0",
+                              "name": "requiredValidator0",
+                              "style": {
+                                "position": "absolute"
+                              },
+                              "text": "Last Name is required",
+                              "type": "required-validator"
+                            }
+                          ],
+                          "name": "col11",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row6",
+                      "style": {
+                        "marginBottom": "1rem"
+                      },
+                      "type": "row"
+                    },
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-3",
+                          "components": [
+                            {
+                              "component": "fileInput0",
+                              "name": "label5",
+                              "style": {
+                                "width": "100%"
+                              },
+                              "text": "Picture",
+                              "type": "label"
+                            }
+                          ],
+                          "name": "col12",
+                          "type": "col"
+                        },
+                        {
+                          "class": "col-md-9",
+                          "components": [
+                            {
+                              "chooseText": "Picture",
+                              "name": "fileInput0",
+                              "style": {
+                                "display": "block"
+                              },
+                              "type": "file-input",
+                              "value": "${user.Picture}"
+                            },
+                            {
+                              "component": "fileInput0",
+                              "name": "requiredValidator2",
+                              "text": "Picture is required",
+                              "type": "required-validator"
+                            }
+                          ],
+                          "name": "col13",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row7",
+                      "style": {
+                        "marginBottom": "1rem"
+                      },
+                      "type": "row"
+                    },
+                    {
+                      "components": [
+                        {
+                          "class": "offset-sm-3 col-md-9",
+                          "components": [
+                            {
+                              "buttonType": "submit",
+                              "events": {
+                                "click": [
+                                  {
+                                    "name": "Security.updateUser",
+                                    "parameters": [
+                                      {
+                                        "name": "Id",
+                                        "value": "${Security.User.Id}"
+                                      },
+                                      {
+                                        "name": "User",
+                                        "value": "${user}"
+                                      }
+                                    ],
+                                    "then": [
+                                      {
+                                        "detail": "Personal data updated successfully!",
+                                        "severity": "success",
+                                        "summary": "Success",
+                                        "type": "notify"
+                                      }
+                                    ],
+                                    "type": "invoke"
+                                  }
+                                ]
+                              },
+                              "icon": "save",
+                              "name": "button0",
+                              "text": "Save",
+                              "type": "button"
+                            }
+                          ],
+                          "name": "col2",
+                          "type": "col"
+                        }
+                      ],
+                      "name": "row1",
+                      "type": "row"
+                    }
+                  ],
+                  "data": "${user}",
+                  "itemType": "RadzenCrm3.Models.ApplicationUser",
+                  "name": "templateForm0",
+                  "type": "template-form"
+                }
+              ],
+              "icon": "",
+              "selected": false,
+              "text": "Personal"
+            },
+            {
+              "components": [
+                {
+                  "action": "account/changepassword",
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "class": "col-md-3",
+                          "components": [
+                            {
                               "component": "OldPassword",
+                              "name": "label0",
                               "style": {
                                 "width": "100%"
                               },
@@ -32,6 +243,7 @@
                               "type": "label"
                             }
                           ],
+                          "name": "col3",
                           "type": "col"
                         },
                         {
@@ -55,9 +267,11 @@
                               "type": "required-validator"
                             }
                           ],
+                          "name": "col4",
                           "type": "col"
                         }
                       ],
+                      "name": "row2",
                       "style": {
                         "marginBottom": "1rem"
                       },
@@ -70,6 +284,7 @@
                           "components": [
                             {
                               "component": "NewPassword",
+                              "name": "label2",
                               "style": {
                                 "width": "100%"
                               },
@@ -77,6 +292,7 @@
                               "type": "label"
                             }
                           ],
+                          "name": "col5",
                           "type": "col"
                         },
                         {
@@ -100,9 +316,11 @@
                               "type": "required-validator"
                             }
                           ],
+                          "name": "col6",
                           "type": "col"
                         }
                       ],
+                      "name": "row3",
                       "style": {
                         "marginBottom": "1rem"
                       },
@@ -115,6 +333,7 @@
                           "components": [
                             {
                               "component": "ConfirmPassword",
+                              "name": "label3",
                               "style": {
                                 "width": "100%"
                               },
@@ -122,6 +341,7 @@
                               "type": "label"
                             }
                           ],
+                          "name": "col7",
                           "type": "col"
                         },
                         {
@@ -145,9 +365,11 @@
                               "type": "required-validator"
                             }
                           ],
+                          "name": "col8",
                           "type": "col"
                         }
                       ],
+                      "name": "row4",
                       "style": {
                         "marginBottom": "1rem"
                       },
@@ -162,6 +384,7 @@
                               "buttonStyle": "primary",
                               "buttonType": "submit",
                               "icon": "save",
+                              "name": "button1",
                               "text": "Change password",
                               "type": "button"
                             },
@@ -174,29 +397,34 @@
                                   }
                                 ]
                               },
+                              "name": "button2",
                               "text": "Cancel",
                               "type": "button"
                             }
                           ],
+                          "name": "col9",
                           "type": "col"
                         }
                       ],
+                      "name": "row5",
                       "type": "row"
                     }
                   ],
+                  "data": "@(user)",
+                  "itemType": "ApplicationUser",
+                  "method": "post",
                   "name": "form0",
                   "type": "template-form",
-                  "method": "post",
-                  "action": "account/changepassword",
-                  "itemType": "ApplicationUser",
-                  "data": "@(user)",
                   "visible": "${user != null}"
                 }
               ],
-              "type": "col"
+              "icon": "",
+              "selected": false,
+              "text": "Password"
             }
           ],
-          "type": "row"
+          "name": "tabs0",
+          "type": "tabs"
         }
       ],
       "container": "main",
@@ -206,8 +434,8 @@
   "events": {
     "load": [
       {
-        "name": "Security.getUserById",
         "condition": "Security.User != null",
+        "name": "Security.getUserById",
         "parameters": [
           {
             "name": "Id",

@@ -1,5 +1,7 @@
 {
-  "access": "Authenticated",
+  "access": [
+    "Authenticated"
+  ],
   "components": [
     {
       "components": [
@@ -547,7 +549,7 @@
             "name": "revenueByCompany",
             "type": "set",
             "value": "${result}",
-            "valueType": "dynamic"
+            "valueType": "IEnumerable<RadzenCrm3.Pages.RevenueByCompany>"
           }
         ],
         "type": "invoke-method"
