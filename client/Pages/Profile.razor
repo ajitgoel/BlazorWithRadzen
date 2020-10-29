@@ -17,9 +17,9 @@
     </RadzenHeading>
     <RadzenTabs>
       <Tabs>
-        <RadzenTabsItem Selected="false" Text="Personal">
+        <RadzenTabsItem Selected="true" Text="Personal">
           <ChildContent>
-            <RadzenTemplateForm Data="@user" TItem="RadzenCrm3.Models.ApplicationUser">
+            <RadzenTemplateForm Data="@user" TItem="RadzenCrm3.Models.ApplicationUser" Submit="@TemplateForm0Submit">
               <ChildContent>
                 <div style="margin-bottom: 1rem" class="row">
                   <div class="col-md-3">
@@ -59,7 +59,7 @@
                 </div>
                 <div class="row">
                   <div class="offset-sm-3 col-md-9">
-                    <RadzenButton ButtonType="ButtonType.Submit" Icon="save" Text="Save" Click="@Button0Click">
+                    <RadzenButton ButtonType="ButtonType.Submit" Icon="save" Text="Save">
                     </RadzenButton>
                   </div>
                 </div>

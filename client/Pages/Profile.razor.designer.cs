@@ -93,7 +93,7 @@ namespace RadzenCrm3.Pages
             }
         }
 
-        protected async System.Threading.Tasks.Task Button0Click(MouseEventArgs args)
+        protected async System.Threading.Tasks.Task TemplateForm0Submit(RadzenCrm3.Models.ApplicationUser args)
         {
             var securityUpdateUserResult = await Security.UpdateUser($"{Security.User.Id}", user);
                 NotificationService.Notify(NotificationSeverity.Success, $"Success", $"Personal data updated successfully!");
