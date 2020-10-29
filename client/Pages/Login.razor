@@ -17,8 +17,20 @@
     </RadzenHeading>
     <div class="row">
       <div class="col-md-12">
-        <RadzenLogin AllowResetPassword="false" Register="@Login0Register">
-        </RadzenLogin>
+        <RadzenTemplateForm Action="/Account/Login" Method="post" TItem="dynamic">
+          <ChildContent>
+            <RadzenLabel Component="Username" style="display: block; margin-top: 16px" Text="Username">
+            </RadzenLabel>
+            <RadzenTextBox style="width: 100%" Name="Username">
+            </RadzenTextBox>
+            <RadzenLabel Component="Password" style="display: block; margin-top: 16px" Text="Password">
+            </RadzenLabel>
+            <RadzenTextBox style="width: 100%" Name="Password">
+            </RadzenTextBox>
+            <RadzenButton ButtonType="ButtonType.Submit" style="margin-top: 16px; width: 100%" Text="Login">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenTemplateForm>
       </div>
     </div>
   </ChildContent>

@@ -66,10 +66,5 @@ namespace RadzenCrm3.Pages
                 NotificationService.Notify(NotificationSeverity.Error, $"Error", $"{error}");
             }
         }
-
-        protected async System.Threading.Tasks.Task Login0Register()
-        {
-            DialogService.Open<RegisterApplicationUser>("Register Application User", null);
-        }
     }
 }
