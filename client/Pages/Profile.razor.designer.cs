@@ -93,6 +93,12 @@ namespace RadzenCrm3.Pages
             }
         }
 
+        protected async System.Threading.Tasks.Task Button0Click(MouseEventArgs args)
+        {
+            var securityUpdateUserResult = await Security.UpdateUser($"{Security.User.Id}", user);
+                NotificationService.Notify(NotificationSeverity.Success, $"Success", $"Personal data updated successfully!");
+        }
+
         protected async System.Threading.Tasks.Task Button2Click(MouseEventArgs args)
         {
             DialogService.Close();

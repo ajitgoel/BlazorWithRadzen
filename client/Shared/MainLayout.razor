@@ -32,8 +32,12 @@
             </RadzenProfileMenuItem>
           </ChildContent>
           <Template>
-            <RadzenGravatar Email="@(Security.User?.Name)">
-            </RadzenGravatar>
+            <RadzenImage Path="@(Security.User.Picture)" style="border-radius: 16px; height: 32px; width: 32px">
+            </RadzenImage>
+            <RadzenLabel Text="@($"{(Security.User.FirstName)}")">
+            </RadzenLabel>
+            <RadzenLabel Text="@($"{(Security.User.LastName)}")">
+            </RadzenLabel>
           </Template>
         </RadzenProfileMenu>
       </div>
@@ -51,19 +55,23 @@
   <ChildContent>
     <RadzenPanelMenu style="height: 100%">
       <ChildContent>
-        <RadzenPanelMenuItem Text="Contacts" Path="contacts" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
+        <RadzenPanelMenuItem Icon="home" Path="home" Text="Dashboard" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
         </RadzenPanelMenuItem>
-        <RadzenPanelMenuItem Text="Opportunities" Path="opportunities" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
+        <RadzenPanelMenuItem Icon="perm_contact_calendar" Path="contacts" Text="Contacts" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
         </RadzenPanelMenuItem>
-        <RadzenPanelMenuItem Text="Opportunity Statuses" Path="opportunity-statuses" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
+        <RadzenPanelMenuItem Icon="work" Path="tasks" Text="Tasks" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
         </RadzenPanelMenuItem>
-        <RadzenPanelMenuItem Text="Tasks" Path="tasks" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
+        <RadzenPanelMenuItem Icon="shopping_cart" Path="opportunities" Text="Opportunities" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
         </RadzenPanelMenuItem>
-        <RadzenPanelMenuItem Text="Task Statuses" Path="task-statuses" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
-        </RadzenPanelMenuItem>
-        <RadzenPanelMenuItem Text="Task Types" Path="task-types" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
-        </RadzenPanelMenuItem>
-        <RadzenPanelMenuItem Text="Home" Path="home" Visible="@Security.IsInRole(new string[]{"Authenticated"})">
+        <RadzenPanelMenuItem Icon="settings" Text="Settings" Visible="@(Security.IsInRole("Sales Manager"))">
+          <ChildContent>
+            <RadzenPanelMenuItem Path="opportunity-statuses" Text="Opportunity Statuses">
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Path="task-types" Text="Task Types">
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Path="task-statuses" Text="Task Statuses">
+            </RadzenPanelMenuItem>
+          </ChildContent>
         </RadzenPanelMenuItem>
       </ChildContent>
     </RadzenPanelMenu>

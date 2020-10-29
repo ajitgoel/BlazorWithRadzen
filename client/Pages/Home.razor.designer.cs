@@ -72,8 +72,8 @@ namespace RadzenCrm3.Pages
             }
         }
 
-        dynamic _revenueByCompany;
-        protected dynamic revenueByCompany
+        IEnumerable<RadzenCrm3.Pages.RevenueByCompany> _revenueByCompany;
+        protected IEnumerable<RadzenCrm3.Pages.RevenueByCompany> revenueByCompany
         {
             get
             {
